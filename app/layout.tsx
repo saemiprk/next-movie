@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import ReactQueryClientProvider from "config/ReactClientProivider";
-import { ThemeProvider } from "config/material-tailwind-theme-provider";
 import Header from "components/header";
 import Footer from "components/footer";
 import RecoilProvider from "config/RecoilProvider";
